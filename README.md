@@ -12,13 +12,12 @@
 
 # Android-BLE-SDK
 
-[![Build Status]
 
 A library to make classic bluetooth or BLE easier to use in Android.
 
 ## Screenshots
 
-<img src="/screenshots/cbt.gif" alt="cbt.gif" title="cbt.gif" width="400" height="660" /> <img src="/screenshots/ble.gif" alt="ble.gif" title="ble.gif" width="400" height="660" />
+<img src="/screenshots/cbt.gif" alt="cbt.gif" title="cbt.gif" width="200" height="300" /> <img src="/screenshots/ble.gif" alt="ble.gif" title="ble.gif" width="200" height="300" />
 
 ## Usage
 
