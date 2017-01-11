@@ -8,12 +8,7 @@
   <img align="right" src="https://img.shields.io/badge/version-2.51.51-blue.svg" />
   <img align="right" src="https://travis-ci.org/iDevicesInc/SweetBlue.svg?branch=master"/>
 </a>
-<p align="center">
-  <br>
-  <a href="https://idevicesinc.com/sweetblue">
-    <img src="https://github.com/iDevicesInc/SweetBlue/blob/master/scripts/assets/sweetblue_logo.png" />
-  </a>
-</p>
+
 
 # Android-BLE-SDK
 
