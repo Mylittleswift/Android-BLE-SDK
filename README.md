@@ -4,8 +4,8 @@
 <b>|</b>&nbsp;<a href='#licensing'>Licensing</a>
 <b>|</b>&nbsp;<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
 <b>|</b>
-<a h![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")>
-</a>
+![alt text](http://www.tothemobile.com/wp-content/uploads/2013/02/Transfer-Apps-Between-Android-Mobiles.jpg "Logo Title Text 1")
+
 
 
 # Android-BLE-SDK
@@ -24,6 +24,9 @@ A library to make classic bluetooth or BLE easier to use in Android.
 
 
 ## How to use BLE SDK?
+
+
+## Wiki
 
 
 ## License
