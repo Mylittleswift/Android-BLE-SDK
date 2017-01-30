@@ -4,10 +4,8 @@
 <b>|</b>&nbsp;<a href='#licensing'>Licensing</a>
 <b>|</b>&nbsp;<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
 <b>|</b>
-<p align="center">
-![alt text](http://www.tothemobile.com/wp-content/uploads/2013/02/Transfer-Apps-Between-Android-Mobiles.jpg)
-</p>
 
+![alt text](http://www.tothemobile.com/wp-content/uploads/2013/02/Transfer-Apps-Between-Android-Mobiles.jpg)
 
 
 # Android-BLE-SDK
