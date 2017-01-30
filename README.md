@@ -1,10 +1,9 @@
 <b>|</b>&nbsp;<a href='#Why to use BLE SDK?'>Why to use BLE SDK?</a>
 <b>|</b>&nbsp;<a href='#What BLE SDK to do?'>What BLE SDK to do?</a>
 <b>|</b>&nbsp;<a href='#How to use BLE SDK?'>How to use BLE SDK?</a>
-<b>|</b>&nbsp;<a href='#Wiki'>Wiki</a>
-<b>|</b>&nbsp;<a href='#License'>License</a>
 <b>|</b>&nbsp;<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
-<b>|</b>
+<b>|</b>&nbsp;<a href='#License'>License</a>
+
 
 ![alt text](http://www.tothemobile.com/wp-content/uploads/2013/02/Transfer-Apps-Between-Android-Mobiles.jpg)
 
@@ -16,21 +15,24 @@ A library to make classic bluetooth or BLE easier to use in Android.
 
 
 Why to use BLE SDK?
-
+===================
 
 
 
 What BLE SDK to do?
-
+===================
 
 
 How to use BLE SDK?
-
+===================
 
 Wiki
+====
+
 
 
 License
+=======
 
     The MIT License (MIT)
 
