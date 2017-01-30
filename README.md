@@ -17,20 +17,32 @@ A library to make classic bluetooth or BLE easier to use in Android.
 Why to use BLE SDK?
 ===================
 
+https://developer.android.com/guide/topics/connectivity/bluetooth-le.html
+Android 4.3 (API level 18) introduces built-in platform support for Bluetooth Low Energy (BLE) in the central role and provides APIs that apps can use to discover devices, query for services, and transmit information.
+
+Common use cases include the following:
+
+Transferring small amounts of data between nearby devices.
+Interacting with proximity sensors like Google Beacons to give users a customized experience based on their current location.
+In contrast to Classic Bluetooth, Bluetooth Low Energy (BLE) is designed to provide significantly lower power consumption. This allows Android apps to communicate with BLE devices that have stricter power requirements, such as proximity sensors, heart rate monitors, and fitness devices.
 
 
+<a name="What BLE SDK to do?"/>
 What BLE SDK to do?
 ===================
 
 
+<a name="How to use BLE SDK?"/>
 How to use BLE SDK?
 ===================
 
+
+<a name="Wiki"/>
 Wiki
 ====
 
 
-
+<a name="License"/>
 License
 =======
 
