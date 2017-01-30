@@ -1,8 +1,8 @@
-<b>|</b>&nbsp;<a href='#why'>Why?</a>
-<b>|</b>&nbsp;<a href='#features'>Features</a>
-<b>|</b>&nbsp;<a href='#getting-started'>Getting Started</a>
+<b>|</b>&nbsp;<a href='#Why to use BLE SDK?'>Why to use BLE SDK?</a>
+<b>|</b>&nbsp;<a href='#What BLE SDK to do?'>What BLE SDK to do?</a>
+<b>|</b>&nbsp;<a href='#How to use BLE SDK?'>How to use BLE SDK?</a>
 <b>|</b>&nbsp;<a href='#licensing'>Licensing</a>
-<b>|</b>&nbsp;<a href="https://github.com/iDevicesInc/SweetBlue/wiki">Wiki</a>
+<b>|</b>&nbsp;<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
 <b>|</b>
 <a href="https://travis-ci.org/iDevicesInc/SweetBlue">
   <img align="right" src="https://img.shields.io/badge/version-2.51.51-blue.svg" />
@@ -15,12 +15,15 @@
 
 A library to make classic bluetooth or BLE easier to use in Android.
 
-## Screenshots
+## Why to use BLE SDK?
 
 
 
-#### Gradle
+## What BLE SDK to do?
 
+
+
+## How to use BLE SDK?
 
 
 ## License
