@@ -4,18 +4,18 @@
 <b>|</b>&nbsp;<a href='#licensing'>Licensing</a>
 <b>|</b>&nbsp;<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
 <b>|</b>
-<a href="https://travis-ci.org/iDevicesInc/SweetBlue">
-  <img align="right" src="https://img.shields.io/badge/version-2.51.51-blue.svg" />
-  <img align="right" src="https://travis-ci.org/iDevicesInc/SweetBlue.svg?branch=master"/>
+<a href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwiW-KCIm-nRAhUG9GMKHTc0CgYQjRwIBw&url=http%3A%2F%2Fstartupdope.com%2Fbluetooth-low-energy-in-contrast-with-classic-bluetooth%2F&bvm=bv.145822982,d.cGc&psig=AFQjCNEhoXgdKx8bJ59MUpuPIFv5YGqUJg&ust=1485843103194443&cad=rjt">
 </a>
 
 
 # Android-BLE-SDK
+=================
 
 
 A library to make classic bluetooth or BLE easier to use in Android.
 
 ## Why to use BLE SDK?
+======================
 
 
 
