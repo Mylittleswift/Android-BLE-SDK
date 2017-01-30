@@ -1,5 +1,5 @@
-<b>|</b>&nbsp;<a href='#Why to use BLE SDK?'>Why to use BLE SDK?</a>
-<b>|</b>&nbsp;<a href='#What BLE SDK to do?'>What BLE SDK to do?</a>
+<b>|</b>&nbsp;<a href='#Why use BLE SDK?'>Why use BLE SDK?</a>
+<b>|</b>&nbsp;<a href='#What BLE SDK does?'>What BLE SDK does?</a>
 <b>|</b>&nbsp;<a href='#How to use BLE SDK?'>How to use BLE SDK?</a>
 <b>|</b>&nbsp;<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
 <b>|</b>&nbsp;<a href='#License'>License</a>
@@ -13,8 +13,8 @@
 A library to make classic bluetooth or BLE easier to use in Android.
 
 
-<a name="Why to use BLE SDK?"/>
-Why to use BLE SDK?
+<a name="Why use BLE SDK?"/>
+Why use BLE SDK?
 ===================
 
 https://developer.android.com/guide/topics/connectivity/bluetooth-le.html
@@ -29,8 +29,8 @@ Interacting with proximity sensors like Google Beacons to give users a customize
 In contrast to Classic Bluetooth, Bluetooth Low Energy (BLE) is designed to provide significantly lower power consumption. This allows Android apps to communicate with BLE devices that have stricter power requirements, such as proximity sensors, heart rate monitors, and fitness devices.
 
 
-<a name="What BLE SDK to do?"/>
-What BLE SDK to do?
+<a name="What BLE SDK does?"/>
+What BLE SDK does?
 ===================
 
 
