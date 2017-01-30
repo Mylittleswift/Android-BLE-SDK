@@ -25,6 +25,7 @@ Common use cases include the following:
 
 Transferring small amounts of data between nearby devices.
 Interacting with proximity sensors like Google Beacons to give users a customized experience based on their current location.
+
 In contrast to Classic Bluetooth, Bluetooth Low Energy (BLE) is designed to provide significantly lower power consumption. This allows Android apps to communicate with BLE devices that have stricter power requirements, such as proximity sensors, heart rate monitors, and fitness devices.
 
 
