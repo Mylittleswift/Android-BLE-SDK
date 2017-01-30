@@ -6,8 +6,7 @@
 <b>|</b>
 
 <p align="center">
-  <br>
-    <img src="hhttp://www.tothemobile.com/wp-content/uploads/2013/02/Transfer-Apps-Between-Android-Mobiles.jpg" />
+    ![alt text]("http://www.tothemobile.com/wp-content/uploads/2013/02/Transfer-Apps-Between-Android-Mobiles.jpg")
 </p>
 
 
