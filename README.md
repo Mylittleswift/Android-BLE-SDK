@@ -18,6 +18,7 @@ Why to use BLE SDK?
 ===================
 
 https://developer.android.com/guide/topics/connectivity/bluetooth-le.html
+
 Android 4.3 (API level 18) introduces built-in platform support for Bluetooth Low Energy (BLE) in the central role and provides APIs that apps can use to discover devices, query for services, and transmit information.
 
 Common use cases include the following:
