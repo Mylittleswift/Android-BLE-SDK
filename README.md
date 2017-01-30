@@ -1,7 +1,8 @@
 <b>|</b>&nbsp;<a href='#Why to use BLE SDK?'>Why to use BLE SDK?</a>
 <b>|</b>&nbsp;<a href='#What BLE SDK to do?'>What BLE SDK to do?</a>
 <b>|</b>&nbsp;<a href='#How to use BLE SDK?'>How to use BLE SDK?</a>
-<b>|</b>&nbsp;<a href='#licensing'>Licensing</a>
+<b>|</b>&nbsp;<a href='#Wiki'>Wiki</a>
+<b>|</b>&nbsp;<a href='#License'>License</a>
 <b>|</b>&nbsp;<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
 <b>|</b>
 
@@ -14,22 +15,22 @@ A library to make classic bluetooth or BLE easier to use in Android.
 
 
 
-## Why to use BLE SDK?
+Why to use BLE SDK?
 
 
 
 
-## What BLE SDK to do?
+What BLE SDK to do?
 
 
 
-## How to use BLE SDK?
+How to use BLE SDK?
 
 
-## Wiki
+Wiki
 
 
-## License
+License
 
     The MIT License (MIT)
 
