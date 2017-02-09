@@ -15,7 +15,6 @@ A library to make classic bluetooth or BLE easier to use in Android.
 
 <a name="Why use BLE SDK?"/>
 ## Why use BLE SDK?
-===================
 
 https://developer.android.com/guide/topics/connectivity/bluetooth-le.html
 
@@ -31,22 +30,19 @@ In contrast to Classic Bluetooth, Bluetooth Low Energy (BLE) is designed to prov
 
 <a name="What BLE SDK does?"/>
 ## What BLE SDK does?
-===================
 
 
 <a name="How to use BLE SDK?"/>
 ## How to use BLE SDK?
-===================
+
 
 
 <a name="Wiki"/>
 ## <a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
-====
 
 
 <a name="License"/>
-##License
-=======
+## License
 
     The MIT License (MIT)
 
