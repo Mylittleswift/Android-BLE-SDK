@@ -40,7 +40,7 @@ How to use BLE SDK?
 
 
 <a name="Wiki"/>
-Wiki
+<a href="https://github.com/Mylittleswift/Android-BLE-SDK/wiki">Wiki</a>
 ====
 
 
