@@ -16,9 +16,11 @@ A library to make classic bluetooth or BLE easier to use in Android.
 <a name="Why use BLE SDK?"/>
 ## Why use BLE SDK?
 
+1. Using Official APIs are not easy
 https://developer.android.com/guide/topics/connectivity/bluetooth-le.html
 
-
+2. A lot of issues and headaches:
+https://github.com/iDevicesInc/SweetBlue/wiki/Android-BLE-Issues
 
 
 <a name="What BLE SDK does?"/>
@@ -45,9 +47,9 @@ You can read a characteristic’s current value, or register to get notified whe
 <a name="How to use BLE SDK?"/>
 ## How to use BLE SDK?
 
-Bluetooth LE on Android is a bit of a wild west, especially when dealing with proprietary Bluetooth stack implementations, but here’s the general idea on how to get started using the public API. First you need to request both BLUETOOTH and BLUETOOTH_ADMIN permissions in your app’s manifest. High-level Bluetooth operations are done through the BluetoothAdapter instance, which is common to all apps on the system. You can get the instance through BluetoothManager‘s getAdapter() method.
+Bluetooth LE on Android is a bit of a wild west, especially when dealing with proprietary Bluetooth stack implementations, but here’s the general idea on how to get started using the public API. First you need to request both BLUETOOTH and BLUETOOTH_ADMIN permissions in your app’s manifest. High-level Bluetooth operations are done through the BluetoothAdapter instance, which is common to all apps on the system. You can get the instance through BluetoothManager‘s `getAdapter() method`.
 
-Scanning peripherals requires that you have implemented the callback interface for getting scan results. In case you need to support API levels 18 to 20, call BluetoothAdapter‘s startLeScan() and supply an instance of BluetoothAdapter.LeScanCallback implementation. For API levels 21 onward, first call BluetoothAdapter's getBluetoothLeScanner() to get an instance of BluetoothLeScanner, and then call startScan() on the instance, supplying a ScanCallback where you can handle scan results. Also note that to get scan results on Lollipop (5.0) and newer you will need to declare ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION permission in the manifest.
+Scanning peripherals requires that you have implemented the callback interface for getting scan results. In case you need to support API levels 18 to 20, call BluetoothAdapter‘s `startLeScan()` and supply an instance of BluetoothAdapter.LeScanCallback implementation. For API levels 21 onward, first call BluetoothAdapter's `getBluetoothLeScanner()` to get an instance of BluetoothLeScanner, and then call `startScan()` on the instance, supplying a ScanCallback where you can handle scan results. Also note that to get scan results on Lollipop (5.0) and newer you will need to declare ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION permission in the manifest.
 
 In your ScanCallback‘s onScanResult() you can get the peripheral from the supplied ScanResult by calling getDevice(), which returns a BluetoothDevice object. To initiate connection, call connectGatt() on the instance, giving a BluetoothGattCallback instance as argument.
 
