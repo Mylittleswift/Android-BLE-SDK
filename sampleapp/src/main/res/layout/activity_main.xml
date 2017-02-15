@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/bt_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#e8f6b8"
+        android:text="Total(07)" />
+
+    <Button
+        android:id="@+id/bt_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:background="#e8f6b8"
+        android:layout_centerHorizontal="true"
+        android:text="Detail(43)" />
+
+    <Button
+        android:id="@+id/bt_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+         android:background="#e8f6b8"
+        android:text="Goal(08)"/>
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_day"
+        android:layout_below="@+id/bt_day"
+        android:layout_marginTop="118dp"
+        android:text="SendData "/>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_total"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:numeric="integer"
+        android:ems="10"
+        android:hint="Enter the number" >
+
+        <requestFocus />
+    </EditText>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bt_send"
+        android:layout_marginTop="36dp" >
+
+        <TextView
+            android:id="@+id/tv_recevice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="receviceData" />
+        
+    </ScrollView>
+
+</RelativeLayout>

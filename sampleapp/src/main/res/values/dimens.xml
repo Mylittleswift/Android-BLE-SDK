@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="console_option_marginStart">15dp</dimen>
+    <dimen name="console_line_marginTop">10dp</dimen>
+    <dimen name="console_option_textSize">13sp</dimen>
+    <dimen name="console_option_height">40dp</dimen>
+    <dimen name="console_option_width">100dp</dimen>
+
+</resources>

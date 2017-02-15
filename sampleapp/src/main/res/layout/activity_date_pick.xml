@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_date_pick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bletest.io.github.mylittleswift.sampleapp.DatePickActivity">
+
+
+    <TextView
+        android:id="@+id/datepick_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start DateTime" />
+
+    <EditText
+        android:id="@+id/datePick_et1"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/datepick_tv1"
+        android:layout_marginTop="10dp"
+        android:editable="false" />
+
+
+    <Button
+        android:id="@+id/datePicker_btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePick_et1"
+        android:layout_marginTop="200dp"
+        android:text="Read" />
+
+    <TextView
+        android:id="@+id/datepick_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_toEndOf="@id/datepick_tv1"
+        android:text="End DateTime" />
+
+    <EditText
+        android:id="@+id/datePick_et2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@id/datepick_tv2"
+        android:layout_below="@id/datepick_tv2"
+        android:layout_marginTop="10dp"
+        android:editable="false" />
+
+    <Button
+        android:id="@+id/datePicker_btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/datePick_et2"
+        android:layout_below="@id/datePick_et2"
+        android:layout_marginTop="200dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

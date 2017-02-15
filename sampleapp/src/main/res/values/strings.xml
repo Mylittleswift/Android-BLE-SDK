@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dfu_app_file_browser_action">
+        <item>market://details?id=com.google.android.apps.docs</item>
+        <item>market://details?id=com.rhmsoft.fm</item>
+        <item>market://details?id=com.ghisler.android.TotalCommander</item>
+        <item>market://search?q=file manager</item>
+    </string-array>
+    <string-array name="dfu_app_file_browser">
+        <item>Drive</item>
+        <item>File Manager</item>
+        <item>Total Commander</item>
+        <item>Search for others</item>
+    </string-array>
+    <string name="dialog_read_from_dir">Open from dir</string>
+    <string name="dfu_alert_no_filebrowser_message">File browser application has not been found on your device. Would you like to download one?</string>
+    <string name="dfu_alert_no_filebrowser_title">File Browser not found</string>
+    <string name="app_name">J1663_Tool</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="progress">%d%%</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- Activity console -->
+    <string name="console_enableRT">开启实时模式</string>
+    <string name="console_disableRT">关闭实时模式</string>
+    <string name="console_enableST">打开存储状态</string>
+    <string name="console_disableST">关闭存储状态</string>
+    <string name="console_ReadST">读取存储状态</string>
+    <string name="console_Reset">软件复位</string>
+    <string name="console_OTA">固件升级</string>
+    <string name="console_ReadData">读取24小时温度历史数据</string>
+    <string name="console_clear">清除</string>
+    <string name="console_setBCName">设置广播名称</string>
+    <string name="console_getBCName">读取广播名称</string>
+    <string name="console_setId">设置设备Id</string>
+    <string name="console_getId">读取设备Id</string>
+    <string name="console_getVersion">读取固件版本号</string>
+    <string name="console_setTime">设置设备时间</string>
+    <string name="console_getTime">获取设备时间</string>
+    <string name="ContactList_btn_cancel">取消</string>
+    <string name="ContactList_btn_confirm">确定</string>
+
+</resources>

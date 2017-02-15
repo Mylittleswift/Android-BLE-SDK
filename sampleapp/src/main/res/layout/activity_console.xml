@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bletest.io.github.mylittleswift.sampleapp.ConsoleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/console_line_marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/console_tv_enableRT"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_enableRT"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_disableRT"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_disableRT"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_reset"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_Reset"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/console_line_marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/console_tv_enableST"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_enableST"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_disableST"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_disableST"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_readST"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_ReadST"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/console_line_marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/console_tv_ota"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_OTA"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_readData"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_ReadData"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_clear"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_clear"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/console_line_marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/console_tv_setBCName"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_setBCName"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_getBCName"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_getBCName"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_setId"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_setId"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/console_line_marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/console_tv_getId"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_getId"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_getVersion"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_getVersion"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+        <TextView
+            android:id="@+id/console_tv_setTime"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_setTime"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/console_line_marginTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/console_tv_getTime"
+            android:layout_width="@dimen/console_option_width"
+            android:layout_height="@dimen/console_option_height"
+            android:layout_marginStart="@dimen/console_option_marginStart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/console_getTime"
+            android:textColor="@color/white"
+            android:textSize="@dimen/console_option_textSize" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/wheat">
+
+        <TextView
+            android:id="@+id/console_tv_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+</LinearLayout>
