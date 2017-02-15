@@ -5,7 +5,7 @@
 <b>|</b>&nbsp;<a href='#License'>License</a>
 
 
-<img src="https://img.gadgethacks.com/img/70/27/63574905944081/0/android-basics-connect-bluetooth-device.1280x600.jpg" width="256")
+<img src="https://img.gadgethacks.com/img/70/27/63574905944081/0/android-basics-connect-bluetooth-device.1280x600.jpg" width="256">
 
 
 # Android-BLE-SDK
