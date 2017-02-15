@@ -5,7 +5,7 @@
 <b>|</b>&nbsp;<a href='#License'>License</a>
 
 
-![alt text](https://github.com/Mylittleswift/Android-BLE-SDK/blob/master/images/androidble.jpg)
+![alt text](https://img.gadgethacks.com/img/70/27/63574905944081/0/android-basics-connect-bluetooth-device.1280x600.jpg width="256")
 
 
 # Android-BLE-SDK
