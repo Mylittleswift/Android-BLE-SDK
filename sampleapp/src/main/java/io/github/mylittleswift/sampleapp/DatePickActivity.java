@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.youhong.oldhealthcare.blesdk.Util;
+import io.github.mylittleswift.blesdk.Util;
 
 import java.util.Calendar;
 

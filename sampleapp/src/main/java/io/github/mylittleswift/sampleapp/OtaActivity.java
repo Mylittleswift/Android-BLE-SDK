@@ -27,8 +27,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.youhong.oldhealthcare.blesdk.RFLampDevice;
-import com.youhong.oldhealthcare.blesdk.Tools;
+import io.github.mylittleswift.blesdk.RFLampDevice;
+import io.github.mylittleswift.blesdk.Tools;
 
 import java.io.File;
 import java.net.URI;
@@ -36,7 +36,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.List;
 
-import no.nordicsemi.android.dfu.DfuBaseService;
+import io.github.mylittleswift.blesdk.dfulib.dfu.DfuBaseService;
 
 public class OtaActivity extends Activity implements OnClickListener, LoaderCallbacks<Cursor> {
     private static final String EXTRA_URI = "uri";

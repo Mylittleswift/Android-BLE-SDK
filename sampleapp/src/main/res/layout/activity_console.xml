@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.bletest.io.github.mylittleswift.sampleapp.ConsoleActivity">
+    tools:context="com.example.bletest.ConsoleActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
