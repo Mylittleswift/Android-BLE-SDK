@@ -10,7 +10,7 @@
 
 # Android-BLE-SDK
 
-A library to make classic bluetooth or BLE easier to use in Android.
+A library to make BLE easier to use in Android.
 
 
 <a name="Why use BLE SDK?"/>
