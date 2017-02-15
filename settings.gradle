@@ -1,2 +1,1 @@
-include ':dfuLibrary', ':blesdk', ':sampleapp', ':blesdk2'
-include ':TestModule'
+include ':blesdk', ':sampleapp'

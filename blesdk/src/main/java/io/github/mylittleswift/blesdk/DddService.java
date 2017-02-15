@@ -3,7 +3,7 @@ package io.github.mylittleswift.blesdk;
 import android.app.Activity;
 import android.support.annotation.NonNull;
 
-import no.nordicsemi.android.dfu.DfuBaseService;
+import io.github.mylittleswift.blesdk.dfulib.dfu.DfuBaseService;
 
 
 public class DddService extends DfuBaseService {

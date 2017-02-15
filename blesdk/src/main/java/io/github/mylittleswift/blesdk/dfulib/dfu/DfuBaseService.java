@@ -59,8 +59,8 @@ import java.lang.reflect.Method;
 import java.util.Locale;
 import java.util.UUID;
 
-import io.github.mylittleswift.blesdk.dfulib.dfu.BuildConfig;
-import io.github.mylittleswift.blesdk.dfulib.dfu.R;
+import io.github.mylittleswift.blesdk.BuildConfig;
+import io.github.mylittleswift.blesdk.R;
 
 import io.github.mylittleswift.blesdk.dfulib.dfu.internal.ArchiveInputStream;
 import io.github.mylittleswift.blesdk.dfulib.dfu.internal.HexInputStream;
