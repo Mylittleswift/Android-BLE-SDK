@@ -10,7 +10,7 @@
 
 # Android-BLE-SDK
 
-A library to make BLE easier to use in Android.
+A library to make BLE easier to use in Android. Compatible with Android 4.3 & above (API >=18).
 
 
 <a name="Why use BLE SDK?"/>
