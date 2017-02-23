@@ -11,7 +11,7 @@
 # Android-BLE-SDK
 
 A library to make BLE easier to use in Android. Compatible with Android 4.3(API 18) & above .
-
+For BLE advertisement mode and ibeacon, this SDK is helpful: https://github.com/alt236/Bluetooth-LE-Library---Android
 
 <a name="Why use BLE SDK?"/>
 ## Why use BLE SDK?
